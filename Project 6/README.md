@@ -1,15 +1,13 @@
-# Final Project CC Lab
+# Building an E-commerce Microservices Application on Cloud using Docker, Kubernetes, Jenkins, and Git
 
-## Building an E-commerce Microservices Application on Cloud using Docker, Kubernetes, Jenkins, and Git
-
-### Overview:
+## Overview:
 
 The aim of this project is to develop an e-commerce microservices application that can be deployed on
 the cloud using Docker, Kubernetes, Jenkins, and Git. The application will consist of several
 microservices that will be deployed as Docker containers on a Kubernetes cluster. Jenkins will be used
 for continuous integration and deployment, while Git will be used for version control.
 
-### Objectives:
+## Objectives:
 
 - Design and implement the microservices architecture for the application.
 - Create Docker containers for each microservice.
@@ -17,7 +15,7 @@ for continuous integration and deployment, while Git will be used for version co
 - Implement a Jenkins pipeline to automate the deployment process.
 - Integrate Git with Jenkins to trigger the pipeline on code changes.
 
-### Pre-requisites:
+## Pre-requisites:
 
 The choice of programming language depends on the students' preference and experience. However,
 some of the popular languages used for developing microservices-based applications are Java, Python,
@@ -42,7 +40,7 @@ understanding of the following prerequisites:
 By having a good understanding of these prerequisites, students can create a successful e-commerce
 application using a microservices-based architecture, containerization, and automation.
 
-### Documentation:
+## Documentation:
 
 1. Docker documentation: https://docs.docker.com/
 2. Kubernetes documentation: https://kubernetes.io/docs/home/
@@ -55,12 +53,12 @@ application using a microservices-based architecture, containerization, and auto
 7. REST API Design: https://restfulapi.net/
 8. Postman documentation for API testing etc: https://learning.postman.com/docs/
 
-### Task Break-up:
+## Task Break-up:
 
 The following is a breakdown of the tasks involved in this project, along with the estimated time
 required for each task:
 
-Task 1: Design the Microservices Architecture
+### Task 1: Design the Microservices Architecture
 
 - Define the different microservices that will be part of the application.
 - Determine the communication protocols between the microservices.
@@ -68,7 +66,7 @@ Task 1: Design the Microservices Architecture
 
 Deliverable: Microservices architecture document.
 
-Task 2: Develop Microservices
+### Task 2: Develop Microservices
 
 - Develop the different microservices using appropriate programming languages and frameworks.
 - Implement REST APIs to allow communication between the microservices.
@@ -86,14 +84,14 @@ Task 2: Develop Microservices
 
 Deliverable: Code for microservices.
 
-Task 3: Containerize Microservices using Docker 
+### Task 3: Containerize Microservices using Docker 
 
 - Write Dockerfiles for each microservice.
 - Build and test Docker images for each microservice.
 
 Deliverable: Docker images for each microservice.
 
-Task 4: Orchestrate Microservices using Kubernetes 
+### Task 4: Orchestrate Microservices using Kubernetes 
 
 - Create Kubernetes deployment manifests for each microservice.
 - Create Kubernetes services for each microservice.
@@ -101,7 +99,7 @@ Task 4: Orchestrate Microservices using Kubernetes
 
 Deliverable: Kubernetes deployment manifests and services.
 
-Task 5: Implement Continuous Integration and Deployment using Jenkins
+### Task 5: Implement Continuous Integration and Deployment using Jenkins
 
 - Set up Jenkins on a server.
 - Create Jenkins jobs and corresponding Jenkinsfile for building, testing, and deploying the
@@ -111,14 +109,14 @@ Task 5: Implement Continuous Integration and Deployment using Jenkins
 
 Deliverable: Jenkins jobs and configuration files.
 
-Task 6: Version Control using Git
+### Task 6: Version Control using Git
 
 - Create a Git repository for the microservices code.
 - Commit and push code changes to the Git repository.
 - Use Git to manage different versions and branches of the code.
 
 
-### Conclusion:
+## Conclusion:
 
 This project will provide hands-on experience in building a microservices-based application using
 Docker containers and deploying it on a local Kubernetes cluster. It will also provide experience in
