@@ -96,7 +96,7 @@ Hint: The docker-compose file which spins up the producer and consumers ensures 
  
   - A docker-compose file must be created that runs the producer, consumers and the database microservice container. 
 
-# Test microservices communicating
+## Test microservices communicating
 
 - To check if the microservices are communicating, try the below instructions:
   - Run the docker-compose file using the command “docker-compose up” and check if all the containers are created. The HTTP server must start running and the consumers must be able to wait for messages through RabbitMQ queues.
@@ -118,7 +118,7 @@ Hint: The docker-compose file which spins up the producer and consumers ensures 
     - Check the content of the DB
   - To end the process, use the command “docker-compose down”
 
-# Explore more!
+## Explore more!
 
 - https://www.linode.com/docs/guides/deploying-microservices-with-docker/
 - https://www.cloudamqp.com/blog/part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html
