@@ -72,15 +72,15 @@ Deliverable: Microservices architecture document.
 - Implement REST APIs to allow communication between the microservices.
 - The app should contain different modules connected to a database to store data
 - For instance, a user page, product page and order page
-    o User Management: This module handles the registration, authentication, and
+    - User Management: This module handles the registration, authentication, and
        authorization of users. It allows users to create accounts, login, and manage their
        profiles.
-    o Product Management: This module handles the management of products. It allows
+    - Product Management: This module handles the management of products. It allows
        admins to add, edit, and delete products. It also allows users to view and search for
        products.
-    o Order Management: This module handles the management of orders. It allows users to 
+    - Order Management: This module handles the management of orders. It allows users to 
       view their order history, track their orders, and manage their orders.
-    o Review Management (optional): This module handles the management of product reviews. It allows users to view and add reviews for products.
+    - Review Management (optional): This module handles the management of product reviews. It allows users to view and add reviews for products.
 
 Deliverable: Code for microservices.
 
