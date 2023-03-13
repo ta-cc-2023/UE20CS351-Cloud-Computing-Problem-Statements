@@ -1,8 +1,6 @@
 # Final Project CC Lab
 
-## Building an E-commerce Microservices Application on Cloud
-
-## using Docker, Kubernetes, Jenkins, and Git
+## Building an E-commerce Microservices Application on Cloud using Docker, Kubernetes, Jenkins, and Git
 
 ### Overview:
 
@@ -82,14 +80,10 @@ Task 2: Develop Microservices
     o Product Management: This module handles the management of products. It allows
        admins to add, edit, and delete products. It also allows users to view and search for
        products.
-    o Order Management: This module handles the management of orders. It allows users to
-       view their order history, track their orders, and manage their orders.
+    o Order Management: This module handles the management of orders. It allows users to 
+      view their order history, track their orders, and manage their orders.
+    o Review Management (optional): This module handles the management of product reviews. It allows users to view and add reviews for products.
 
-
-```
-o Review Management (optional): This module handles the management of product
-reviews. It allows users to view and add reviews for products.
-```
 Deliverable: Code for microservices.
 
 Task 3: Containerize Microservices using Docker 
