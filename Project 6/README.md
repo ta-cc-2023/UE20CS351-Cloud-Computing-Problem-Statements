@@ -62,7 +62,7 @@ application using a microservices-based architecture, containerization, and auto
 The following is a breakdown of the tasks involved in this project, along with the estimated time
 required for each task:
 
-Task 1: Design the Microservices Architecture ( 1 hour)
+Task 1: Design the Microservices Architecture
 
 - Define the different microservices that will be part of the application.
 - Determine the communication protocols between the microservices.
@@ -70,7 +70,7 @@ Task 1: Design the Microservices Architecture ( 1 hour)
 
 Deliverable: Microservices architecture document.
 
-Task 2: Develop Microservices ( 4 hours)
+Task 2: Develop Microservices
 
 - Develop the different microservices using appropriate programming languages and frameworks.
 - Implement REST APIs to allow communication between the microservices.
@@ -92,14 +92,14 @@ reviews. It allows users to view and add reviews for products.
 ```
 Deliverable: Code for microservices.
 
-Task 3: Containerize Microservices using Docker (2 hours)
+Task 3: Containerize Microservices using Docker 
 
 - Write Dockerfiles for each microservice.
 - Build and test Docker images for each microservice.
 
 Deliverable: Docker images for each microservice.
 
-Task 4: Orchestrate Microservices using Kubernetes (2 hours)
+Task 4: Orchestrate Microservices using Kubernetes 
 
 - Create Kubernetes deployment manifests for each microservice.
 - Create Kubernetes services for each microservice.
@@ -107,7 +107,7 @@ Task 4: Orchestrate Microservices using Kubernetes (2 hours)
 
 Deliverable: Kubernetes deployment manifests and services.
 
-Task 5: Implement Continuous Integration and Deployment using Jenkins (2 hours)
+Task 5: Implement Continuous Integration and Deployment using Jenkins
 
 - Set up Jenkins on a server.
 - Create Jenkins jobs and corresponding Jenkinsfile for building, testing, and deploying the
@@ -117,53 +117,12 @@ Task 5: Implement Continuous Integration and Deployment using Jenkins (2 hours)
 
 Deliverable: Jenkins jobs and configuration files.
 
-Task 6: Version Control using Git (2 hours)
+Task 6: Version Control using Git
 
 - Create a Git repository for the microservices code.
 - Commit and push code changes to the Git repository.
 - Use Git to manage different versions and branches of the code.
 
-Deliverable: Git repository containing the microservices code.
-
-Total Estimated Time: 1 3 hours.
-
-### Testing Guide
-
-The following are some examples of test cases to test the project:
-
-1. User registration: Test that users can successfully create an account and that their information is
-    stored correctly in the database.
-       o Test case: Enter valid user registration details and submit the form. Verify that the user
-          account is created in the database and that the user can login successfully.
-2. Product catalog: Test that the product catalog displays all products and their details correctly.
-    o Test case: Verify that all products are displayed on the product catalog page and that
-       their details (name, description, price, image, etc.) are correct.
-
-
-3. Order page: Test that users can add and remove items from their order. They must get a
-    confirmation if an order has been placed. The order must be registered in the database.
-4. Error handling: Test that the application handles errors and exceptions correctly.
-    o Test case: Submit an invalid form (e.g. with missing required fields) and verify that the
-       application displays a clear error message.
-
-To test the application, you can use a combination of manual and automated testing techniques. Here
-are some examples of how to test the application:
-
-1. Unit testing: Write unit tests for each microservice to ensure that individual components are
-    working as expected.
-2. Integration testing: Test how different microservices interact with each other by running
-    integration tests.
-3. API testing: Test the RESTful API endpoints to verify that they return the expected data and
-    handle errors correctly.
-4. Load testing: Test the application's performance and scalability by simulating high traffic
-    loads. To perform load testing for an e-commerce microservices application, you can use a
-    load testing tool such as Apache JMeter or Gatling.
-       - Set up the tool to simulate a realistic user load on the application by defining the
-          number of users, their behaviour, and the duration of the test.
-5. End-to-end testing: Test the entire application flow from start to finish to ensure that all
-    components are working together correctly.
-To perform these tests, you can use a variety of tools and frameworks, such as JUnit, Selenium,
-Postman, and Apache JMeter.
 
 ### Conclusion:
 
