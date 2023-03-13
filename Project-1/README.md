@@ -60,9 +60,13 @@ These four functionalities' locations become apparent once you go through the co
 
 ## **What you can use to test your code out:**
 
-go test -v -race -run Test1 \> verbose/1.log
+```ps
+go test -v -race -run Test1 > verbose/1.log
+```
 
-go test -v -race -run Test2 \> verbose/2.log
+```ps
+go test -v -race -run Test2 > verbose/2.log
+```
 
 The above command executes a couple of scenarios for your code. Read through the logs generated in the verbose directory for **Test1** , and make sure to have all 5 files open in NodeLogs and watch them update in real time for **Test2** (like this:)
 

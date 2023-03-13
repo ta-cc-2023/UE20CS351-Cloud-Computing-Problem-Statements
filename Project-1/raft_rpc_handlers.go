@@ -48,7 +48,13 @@ func (this *RaftNode) HandleRequestVote(args RequestVoteArgs, reply *RequestVote
 	// THIS REQUEST, OR NOT
 	// All the variables that you need for the conditions have been defined above.
 	//-------------------------------------------------------------------------------------------/
-	// TODO
+	if  { // TODO: what are the conditions necessary to vote? HINT: there's multiple.
+
+		// TODO: indicate that it has voted.
+
+	} else {
+		reply.VoteGranted = false
+	}
 	//-------------------------------------------------------------------------------------------/
 
 	reply.Term = this.currentTerm
