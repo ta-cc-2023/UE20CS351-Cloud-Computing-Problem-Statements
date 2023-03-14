@@ -1,4 +1,4 @@
-# Problem Statement 3 - Breaking down monoliths 🪨⛏️
+# Breaking down monoliths 🪨⛏️
 
 This problem statement has two objectives:
 - Get familiar with reading error stack trace and debugging code.
